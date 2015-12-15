@@ -1,0 +1,6 @@
+svn checkout https://subversion.assembla.com/svn/secaor1516daw2001/
+cd secaor1516daw2001
+wget www.collados.org/daw2/m07/m07uf1ex07.tar.gz
+tar zxf m07uf1ex07.tar.gz
+svn add *
+svn commit -m "commit test"
